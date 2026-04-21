@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "journey": "Journey",
+    "archive": "Archive",
+    "profile": "Profile",
+    "login": "Sign in",
+    "logout": "Sign out"
+  },
+  "home": {
+    "title": "Core2Cosmos",
+    "subtitle": "A journey from Earth's core to the stars",
+    "cta": "Start journey",
+    "ctaGuest": "Try without signing in"
+  },
+  "journey": {
+    "title": "Your journey",
+    "fuel": "Fuel",
+    "sector": "Sector",
+    "locked": "Locked",
+    "completed": "Completed",
+    "start": "Start",
+    "continue": "Continue"
+  },
+  "level": {
+    "question": "Question",
+    "of": "of",
+    "hint": "Hint",
+    "check": "Check",
+    "next": "Next",
+    "correct": "Correct!",
+    "wrong": "Wrong, try again",
+    "bonusTitle": "Bonus challenge",
+    "bonusSubmit": "Submit answer",
+    "bonusEnergy": "+{amount} fuel",
+    "levelComplete": "Level complete!",
+    "energyEarned": "Fuel earned",
+    "continue": "Continue to next"
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "loginGoogle": "Continue with Google",
+    "loginEmail": "Sign in with email",
+    "email": "Email",
+    "password": "Password",
+    "noAccount": "No account?",
+    "register": "Register",
+    "haveAccount": "Have an account?",
+    "guestWarning": "As a guest, your progress is saved only in this browser."
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again."
+  }
+}

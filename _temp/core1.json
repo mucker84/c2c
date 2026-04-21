@@ -1,0 +1,59 @@
+[
+  {
+    "id": "core_001_inner",
+    "sector": "Core",
+    "title": "Křišťálové srdce",
+    "coordinates": "Hloubka: 6 371 km",
+    "content": {
+      "glitch": "T..ot. j. v.šš. n.. na p.vr..u Sl..ce. Železo je t.. v p.v..m st.vu...",
+      "fullText": "Vítejte v nejnedostupnějším místě planety. Vnitřní jádro je obří koule pevného železa a niklu o velikosti Měsíce. I když je tu teplota přes 5 000 °C (víc než na povrchu Slunce), obrovský tlak okolní Země nedovolí kovům roztát. Je to doslova krystal uprostřed pekla.",
+      "logicBonus": "Představ si, že by tlak náhle zmizel, ale teplota zůstala stejná. Co by se stalo s vnitřním jádrem? (Nápověda: Fázová přeměna látky)."
+    },
+    "questions": [
+      {
+        "question": "Proč je vnitřní jádro pevné, i když je tam tepleji než v roztaveném vnějším jádru?",
+        "options": ["Je tam jiný druh kovu", "Obrovský tlak brání atomům v pohybu", "Jádro je neustále ochlazováno vodou", "Není tam žádný kyslík"],
+        "correctIndex": 1,
+        "hint": "Zamysli se nad tím, co se stane s ledem, když na něj velmi silně zatlačíš."
+      }
+    ]
+  },
+  {
+    "id": "core_002_dynamo",
+    "sector": "Core",
+    "title": "Magnetické Dynamo",
+    "coordinates": "Hloubka: 2 900 km",
+    "content": {
+      "glitch": "P.udící k.v vyt..ří ne..di..telný št.. b.z kt.rého by..om neb..i.",
+      "fullText": "Vnější jádro je tekuté. Díky rotaci Země se v něm železo přelévá jako v obří pračce. Tím vzniká elektrický proud a s ním i magnetické pole Země. Tento neviditelný štít nás chrání před vražedným kosmickým zářením. Bez něj by Země byla mrtvou pouští jako Mars.",
+      "logicBonus": "Střelka kompasu ukazuje na sever. Kdyby se vnější jádro přestalo točit, co by se stalo s tvou GPS navigací v telefonu?"
+    },
+    "questions": [
+      {
+        "question": "Co by se stalo s atmosférou Země, kdyby vnější jádro zcela vychladlo a ztuhlo?",
+        "options": ["Nic, atmosféra nezávisí na jádru", "Byla by mnohem hustší", "Sluneční vítr by ji postupně 'odfoukl' do vesmíru", "Změnila by barvu na zelenou"],
+        "correctIndex": 2,
+        "hint": "Magnetické pole funguje jako deštník v bouři slunečních částic."
+      }
+    ]
+  },
+  {
+    "id": "crust_001_plates",
+    "sector": "Crust",
+    "title": "Tektonický tanec",
+    "coordinates": "Hloubka: 30 km",
+    "content": {
+      "glitch": "P.v..h Z.mě n.ní j.d.n k.s, ale sklá.ačka, kt.rá se n.ustále hý.e.",
+      "fullText": "Stojíte na něčem, co vypadá pevně, ale ve skutečnosti plujete. Zemská kůra je rozlámaná na tektonické desky. Ty se pohybují zhruba stejnou rychlostí, jakou vám rostou nehty. Někde se srážejí a tvoří hory (Himaláje), jinde se od sebe vzdalují a vytvářejí nové oceány.",
+      "logicBonus": "Indie byla kdysi ostrovem u Afriky. 'Plula' na sever, dokud nenarazila do Asie. Co myslíš, že se stalo s mořským dnem, které bylo mezi nimi?"
+    },
+    "questions": [
+      {
+        "question": "Na vrcholu Mount Everestu (8 848 m) se dají najít zkameněliny mořských živočichů. Jak je to možné?",
+        "options": ["Vynesli je tam ptáci", "Hladina oceánů byla kdysi tak vysoko", "Dno starého moře bylo vyzdviženo srážkou kontinentů", "Mount Everest byl kdysi sopka pod hladinou"],
+        "correctIndex": 2,
+        "hint": "Kontinenty fungují jako obří buldozery, které hrnou vše před sebou."
+      }
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "core_001_inner",
+    "sector": "Core",
+    "title": "The Crystal Heart",
+    "coordinates": "Depth: 6,371 km",
+    "content": {
+      "glitch": "T.e t.mp.ratur. i. h.gher th.n th. s.rf.ce of th. S.n...",
+      "fullText": "You are at the center of the Earth. The inner core is a solid ball of iron and nickel the size of the Moon. Despite temperatures over 5,000°C, the extreme pressure keeps it solid. It's a crystal in a hellish furnace.",
+      "logicBonus": "If the pressure suddenly vanished but the heat stayed, what would happen to the core? (Hint: Phase change)."
+    },
+    "questions": [
+      {
+        "q": "Why is the inner core solid despite the extreme heat?",
+        "a": ["Different type of metal", "Crushing pressure prevents atoms from moving", "Constant water cooling", "Lack of oxygen"],
+        "correct": 1,
+        "hint": "Think about what happens to ice when you press it very hard."
+      }
+    ]
+  },
+  {
+    "id": "core_002_dynamo",
+    "sector": "Core",
+    "title": "Magnetic Dynamo",
+    "coordinates": "Depth: 2,900 km",
+    "content": {
+      "glitch": "Flow..g m.t.l cre.t.s an inv.s.ble sh.e.d...",
+      "fullText": "The outer core is liquid. Earth's rotation stirs the molten iron like a giant blender, creating electric currents. This generates our magnetic field—an invisible shield protecting us from lethal cosmic radiation. Without it, Earth would be a dead desert like Mars.",
+      "logicBonus": "A compass points North. If the outer core stopped spinning, what would happen to your phone's GPS?"
+    },
+    "questions": [
+      {
+        "q": "What would happen to Earth's atmosphere if the core completely cooled down and solidified?",
+        "a": ["Nothing", "It would become thicker", "Solar winds would slowly blow it away into space", "It would turn green"],
+        "correct": 2,
+        "hint": "The magnetic field works like an umbrella in a storm of solar particles."
+      }
+    ]
+  },
+  {
+    "id": "crust_001_plates",
+    "sector": "Crust",
+    "title": "The Tectonic Dance",
+    "coordinates": "Depth: 30 km",
+    "content": {
+      "glitch": "E.rth's s.rf.ce i. n.t on. pi.ce, b.t a p.zzl. th.t n.v.r st.ps mov..g.",
+      "fullText": "The ground looks solid, but you are floating. Earth's crust is broken into tectonic plates moving at the speed your fingernails grow. They crash to build mountains (Himalayas) or pull apart to create new oceans.",
+      "logicBonus": "India was once an island near Africa. It 'sailed' north until it hit Asia. What happened to the seafloor that was between them?"
+    },
+    "questions": [
+      {
+        "q": "Sea fossils are found on top of Mt. Everest (8,848m). How is this possible?",
+        "a": ["Birds carried them up", "Ocean levels were once that high", "Old seafloor was pushed up by colliding continents", "Everest was an underwater volcano"],
+        "correct": 2,
+        "hint": "Continents work like giant bulldozers, pushing everything in front of them."
+      }
+    ]
+  },
+  {
+    "id": "bio_001_deepsea",
+    "sector": "Ocean",
+    "title": "Abyssal Secrets",
+    "coordinates": "Depth: 4,000 m",
+    "content": {
+      "glitch": "In th. d..p oc..n, l.ght d..s n.t ex.st. Creat..es m.ke th..r o.n...",
+      "fullText": "At 4,000 meters deep, the pressure is like having an elephant stand on your thumb. There is no sunlight, so plants can't grow. Instead, life thrives around hydrothermal vents—underwater volcanoes—using chemicals instead of sun for energy. This is called chemosynthesis.",
+      "logicBonus": "Red light doesn't reach the deep ocean. If a fish is bright red down there, what color does it appear to a predator? (Black / Bright Red / White)."
+    },
+    "questions": [
+      {
+        "q": "How do deep-sea creatures survive without sunlight?",
+        "a": ["They eat plastic", "They use chemical energy from vents", "They swim to the surface every night", "They don't need energy"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "id": "atmo_001_shield",
+    "sector": "Atmosphere",
+    "title": "The Blue Armor",
+    "coordinates": "Altitude: 0–10,000 km",
+    "content": {
+      "glitch": "W. ar. br.ath.ng th. sk.e. b.t it a.so st.ps d..dly b.ll.ts fr.m sp.ce...",
+      "fullText": "The atmosphere isn't just air; it's a multi-layered shield. The Ozone layer blocks UV rays that would burn our DNA, while the Mesosphere acts as a 'shooting gallery' where meteors burn up before hitting the ground. You are currently protected by a thin skin of gases.",
+      "logicBonus": "Most commercial planes fly at 10km (Troposphere boundary). Why is the air so much colder there than on the ground if they are closer to the Sun?"
+    },
+    "questions": [
+      {
+        "q": "Which layer of the atmosphere is responsible for burning up most meteors?",
+        "a": ["Troposphere", "Stratosphere", "Mesosphere", "Exosphere"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "id": "space_001_moon",
+    "sector": "Space",
+    "title": "The Silent Neighbor",
+    "coordinates": "Distance: 384,400 km",
+    "content": {
+      "glitch": "Th. Mo.n i. dr.ft.ng aw.y fr.m u. ev.ry y..r...",
+      "fullText": "The Moon is our only natural satellite. Its gravity tugs on Earth's oceans, creating tides. But it also stabilizes Earth's wobble, keeping our climate steady. Interestingly, the Moon moves 3.8cm away from Earth every year. One day, it will look much smaller in our sky.",
+      "logicBonus": "If you weigh 100kg on Earth, you weigh only 16kg on the Moon. Is it because you lost mass, or because gravity is weaker?"
+    },
+    "questions": [
+      {
+        "q": "What is the primary cause of Earth's ocean tides?",
+        "a": ["Earth's internal heat", "The Sun's magnetic field", "The Moon's gravitational pull", "Strong winds"],
+        "correct": 2
+      }
+    ]
+  }
+]

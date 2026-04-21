@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "journey": "Cesta",
+    "archive": "Archiv",
+    "profile": "Profil",
+    "login": "Přihlásit se",
+    "logout": "Odhlásit se"
+  },
+  "home": {
+    "title": "Core2Cosmos",
+    "subtitle": "Cesta od jádra Země až ke hvězdám",
+    "cta": "Začít cestu",
+    "ctaGuest": "Zkusit bez přihlášení"
+  },
+  "journey": {
+    "title": "Tvoje cesta",
+    "fuel": "Energie",
+    "sector": "Sektor",
+    "locked": "Zamčeno",
+    "completed": "Dokončeno",
+    "start": "Začít",
+    "continue": "Pokračovat"
+  },
+  "level": {
+    "question": "Otázka",
+    "of": "z",
+    "hint": "Nápověda",
+    "check": "Zkontrolovat",
+    "next": "Další",
+    "correct": "Správně!",
+    "wrong": "Špatně, zkus znovu",
+    "bonusTitle": "Bonusová výzva",
+    "bonusSubmit": "Odevzdat odpověď",
+    "bonusEnergy": "+{amount} energie",
+    "levelComplete": "Úroveň dokončena!",
+    "energyEarned": "Získaná energie",
+    "continue": "Pokračovat na další"
+  },
+  "auth": {
+    "loginTitle": "Přihlásit se",
+    "loginGoogle": "Pokračovat přes Google",
+    "loginEmail": "Přihlásit se e-mailem",
+    "email": "E-mail",
+    "password": "Heslo",
+    "noAccount": "Nemáš účet?",
+    "register": "Zaregistrovat se",
+    "haveAccount": "Máš účet?",
+    "guestWarning": "Jako host se tvůj postup uloží jen do tohoto prohlížeče."
+  },
+  "errors": {
+    "generic": "Něco se pokazilo. Zkus to znovu."
+  }
+}

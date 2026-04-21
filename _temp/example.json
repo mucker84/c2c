@@ -1,0 +1,13 @@
+{
+  "id": "crust_volcanoes",
+  "title": "Sopky: Okna do hlubin",
+  "difficulty": "medium",
+  "content": {
+    "glitch": "S..pky jso. f.scin..ící o..ory...",
+    "fullText": "Sopky nejsou jen ničivé hory, ale recyklační systém Země...",
+    "bonusLogic": "Která ze sopek na obrázku vybuchne nejspíše explozivně? (Hráč musí posoudit viskozitu lávy podle tvaru kužele)."
+  },
+  "questions": [
+    { "q": "Kde se nachází největší sopka sluneční soustavy?", "a": ["Mars", "Země", "Venuše", "Měsíc"], "correct": 0 }
+  ]
+}
