@@ -2,12 +2,15 @@ import {
   getFirestore,
   doc,
   getDoc,
+  getDocs,
   setDoc,
   updateDoc,
+  collection,
   serverTimestamp,
 } from "firebase/firestore";
 import { app } from "./config";
 import type { UserProgress } from "@/types/user";
+import type { BonusAnswer } from "@/types/bonus";
 
 export const db = getFirestore(app);
 
@@ -34,7 +37,8 @@ export async function saveLevelResult(
   uid: string,
   levelId: string,
   fuelEarned: number,
-  bonusEarned: boolean
+  bonusEarned: boolean,
+  bonusAnswer?: { question: string; answer: string; levelTitle: string }
 ) {
   const progressRef = doc(db, "users", uid, "data", "progress");
   const snap = await getDoc(progressRef);
@@ -55,4 +59,20 @@ export async function saveLevelResult(
     bonusEarned,
     completedAt: serverTimestamp(),
   });
+
+  if (bonusAnswer) {
+    await setDoc(doc(db, "users", uid, "bonusAnswers", levelId), {
+      levelId,
+      levelTitle: bonusAnswer.levelTitle,
+      question: bonusAnswer.question,
+      answer: bonusAnswer.answer,
+      aiEvaluation: null, // reserved for future AI evaluation
+      answeredAt: serverTimestamp(),
+    });
+  }
+}
+
+export async function getBonusAnswers(uid: string): Promise<BonusAnswer[]> {
+  const snap = await getDocs(collection(db, "users", uid, "bonusAnswers"));
+  return snap.docs.map((d) => d.data() as BonusAnswer);
 }

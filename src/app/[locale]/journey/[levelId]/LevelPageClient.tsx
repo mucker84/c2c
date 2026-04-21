@@ -15,8 +15,12 @@ export default function LevelPageClient({ level }: { level: Level }) {
   const sector = SECTORS.find((s) => s.id === level.sector);
   const sectorColor = sector?.color ?? "#E77222";
 
-  async function handleComplete(fuelEarned: number, bonusEarned: boolean) {
-    await completeLevel(level.id, fuelEarned, bonusEarned);
+  async function handleComplete(
+    fuelEarned: number,
+    bonusEarned: boolean,
+    bonusAnswer?: { question: string; answer: string; levelTitle: string }
+  ) {
+    await completeLevel(level.id, fuelEarned, bonusEarned, bonusAnswer);
     setTimeout(() => router.push(`/${locale}/journey`), 1500);
   }
 
